@@ -15,7 +15,7 @@ $(document).ready(function () {
     $('.panel-cover').addClass('panel-cover--collapsed')
   }
 
-  if (window.location.pathname !== '/jekyll-uno/' && window.location.pathname !== '/jekyll-uno/index.html') {
+  if (window.location.pathname !== 'mudit9.github.io/' && window.location.pathname !== 'mudit9.github.io/index.html') {
     $('.panel-cover').addClass('panel-cover--collapsed')
   }
 

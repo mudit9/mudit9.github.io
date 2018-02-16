@@ -1,8 +1,8 @@
 # Site settings
-title: Blog
-description: 'Developer, Enthusiast, Lover'
-url: 'http://joshgerdes.com/jekyll-uno'
-baseurl: '/jekyll-uno'
+title: Mudit Saxena
+description: 'Developer, Programmer, Data Scientist'
+url: 'http://mudit9.github.io'
+baseurl: 'mudit9.github.io'
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
 
@@ -12,7 +12,7 @@ author:
   twitter_username: mudit9
   facebook_username: Mudit Saxena
   github_username:  mudit9
-  linkedin_username:  mudit9saxena
+  linkedin_username:  mudit-saxena
 
 defaults:
   -
