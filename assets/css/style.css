@@ -52,19 +52,6 @@ a {
   transition: all 0.5s ease-in-out 0s;
 }
 
-a:hover {
-  -moz-transition: all 0.5s ease-in-out 0s;
-  -ms-transition: all 0.5s ease-in-out 0s;
-  -o-transition: all 0.5s ease-in-out 0s;
-  -webkit-transition: all 0.5s ease-in-out 0s;
-  transition: all 0.5s ease-in-out 0s;
-}
-
-a:hover, a:focus {
-  color: #b8a07e;
-  text-decoration: underline;
-}
-
 nav ul li a {
   padding: 2px 0 0 0;
   position: relative;
@@ -112,9 +99,7 @@ p {
   text-transform: uppercase;
 }
 
-.btn:hover, .btn:focus {
-  color: #fff;
-}
+
 
 .padDiv {
   padding: 30px 20px;
@@ -164,9 +149,6 @@ p {
   background: #333;
 }
 
-.hvr-shutter-in-horizontal:hover {
-  background: #b8a07e;
-}
 
 .mb-30 {
   margin-bottom: 30px;
@@ -423,14 +405,7 @@ nav ul li a {
   transition: all 0.5s ease-in-out 0s;
 }
 
-#portfolio .portfolio-list .nav li:hover, #portfolio .portfolio-list .nav li.filter-active  {
-  color: #b8a07e;
-  -moz-transition: all 0.5s ease-in-out 0s;
-  -ms-transition: all 0.5s ease-in-out 0s;
-  -o-transition: all 0.5s ease-in-out 0s;
-  -webkit-transition: all 0.5s ease-in-out 0s;
-  transition: all 0.5s ease-in-out 0s;
-}
+
 
 #portfolio .portfolio-container {
   display: inline-block;
@@ -497,14 +472,6 @@ nav ul li a {
   transition: all 0.5s ease-in-out 0s;
 }
 
-.journal-block .journal-info .journal-txt h4 a:hover {
-  color: #b8a07e;
-  -moz-transition: all 0.5s ease-in-out 0s;
-  -ms-transition: all 0.5s ease-in-out 0s;
-  -o-transition: all 0.5s ease-in-out 0s;
-  -webkit-transition: all 0.5s ease-in-out 0s;
-  transition: all 0.5s ease-in-out 0s;
-}
 
 .journal-block .journal-info .journal-txt p {
   margin: 0;
@@ -608,14 +575,7 @@ nav ul li a {
   transition: all 0.5s ease-in-out 0s;
 }
 
-#footer .socials-media ul li a:hover {
-  color: #b8a07e;
-  -moz-transition: all 0.5s ease-in-out 0s;
-  -ms-transition: all 0.5s ease-in-out 0s;
-  -o-transition: all 0.5s ease-in-out 0s;
-  -webkit-transition: all 0.5s ease-in-out 0s;
-  transition: all 0.5s ease-in-out 0s;
-}
+
 
 #footer p {
   font-size: 12px;
