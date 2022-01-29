@@ -1,30 +1,44 @@
----
-layout: default
-robots: noindex
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Mudit Saxena</title>
+  <meta content="security researcher, security consultant, bug bounty, bug bounty hunter, web security, penetration testing, cyber security, information security, siber güvenlik, bilgi güvenliği" name="keywords">
+  <meta content="Security Consultant" name="description">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
+  <link href="assets/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="assets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/lib/magnific-popup/magnific-popup.css" rel="stylesheet">
+  <link href="assets/lib/hover/hover.min.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/responsive.css" rel="stylesheet">
+  <link rel="shortcut icon" href="images/favicon.png">
+</head>
+<body>
+  <div id="header" class="home">
+    <div class="container">
+      <div class="header-content">
+        <h1>Mudit Saxena - <span class="typed"></span></h1>
+        <p>Developer, researcher, thinker. </p>
+        <ul class="list-unstyled list-social">
+      <li><a href="https://drive.google.com/file/d/1JYhfCkmBi_GJZ2WOVGCrfjQpPYka-FrQ/view?usp=sharing" target="_blank"><i class="ion-document-text"></i></a></li>
+		  <li><a href="https://github.com/mudit9" target="_blank"><i class="ion-social-github"></i></a></li>
+      <li><a href="https://www.linkedin.com/in/mudit10saxena/" target="_blank"><i class="ion-social-linkedin" target="_blank"></i></a></li>
+      <li><a href="https://twitter.com/@Mudit_iz" target="_blank"><i class="ion-social-twitter"></i></a></li>
+		  <li><a href="https://www.facebook.com/msgagent1/" target="_blank"><i class="ion-social-facebook"></i></a></li>
 
-<div class="main-post-list">
-
-  <ol class="post-list">
-    {% for post in paginator.posts %}
-      <li>
-        <h2 class="post-list__post-title post-title"><a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
-        <p class="excerpt">{{ post.excerpt | strip_html }}&hellip;</p>
-        <div class="post-list__meta">
-            <time datetime="{{ post.date | date: "%Y-%m-%d %H:%M" }}" class="post-list__meta--date date">{{ post.date | date: "%-d %b %Y" }}</time>
-            {% if post.tags.size > 0 %}
-            &#8226; <span class="post-meta__tags">on {% for tag in post.tags %}<a href="{{ site.baseurl }}/tags/#{{ tag }}">{{ tag }}</a> {% endfor %}</span>
-            {% endif %}
-        </div>
-        <hr class="post-list__divider">
-      </li>
-    {% endfor %}
-  </ol>
-
-  <hr class="post-list__divider ">
-
-  {% if paginator.previous_page or paginator.next_page %}
-      {% include pagination.html %}
-  {% endif %}
-
-</div>
+      </div>
+    </div>
+  </div>
+  <script src="assets/lib/jquery/jquery.min.js"></script>
+  <script src="assets/lib/jquery/jquery-migrate.min.js"></script>
+  <script src="assets/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/lib/typed/typed.js"></script>
+  <script src="assets/lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="assets/lib/magnific-popup/magnific-popup.min.js"></script>
+  <script src="assets/lib/isotope/isotope.pkgd.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
